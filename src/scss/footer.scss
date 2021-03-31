@@ -1,1 +1,36 @@
 @import "_variables";
+.footer {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 1304px;
+    justify-content: space-between;
+}
+
+.footer__navigation {
+    width: 100%;
+    max-width: 1015px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__navigation-item {
+    text-decoration: none;
+    font-family: $fontFamily;
+    font-weight: 600;
+    color: $white;
+    font-size: $fontSize;
+    line-height: $lineHeight;
+    align-items: center;
+}
+
+.footer__sociallogo {
+    display: flex;
+    width: 94px;
+    justify-content: space-between;
+    position: absolute;
+    top: 70%;
+    left: 46%;
+}
