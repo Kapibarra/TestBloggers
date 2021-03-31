@@ -18,6 +18,11 @@ html {
 body {
     margin: 0;
     background: $bglinear;
+    cursor: url('../img/cursor.png') 10 10, auto;
+}
+
+a:hover {
+    cursor: $hover;
 }
 
 main {

@@ -94,6 +94,17 @@ module.exports = {
                 exclude: /node_modules/,
                 use: jsLoaders(),
             },
+            {
+                test: /\.(png|jpg|gif)$/i,
+                use: [
+                  {
+                    loader: 'url-loader',
+                    options: {
+                      limit: 8192,
+                    },
+                  },
+                ],
+              },
         ],
     },
 };

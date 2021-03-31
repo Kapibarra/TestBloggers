@@ -1,7 +1,27 @@
 import "./scss/index.scss";
 import Splide from '@splidejs/splide';
 
-new Splide( '.splide' ).mount();
+// if (x > 5) {
+
+// } else if (x > 50) {
+
+// } else {
+
+// }
+function ResizeSlider() {
+  if (window.screen.width <= 968){
+    new Splide( '.splide', {
+      autoWidth: false,
+      perPage: 2,
+    } ).mount();
+  } else {
+    new Splide( '.splide', {
+      autoWidth: false,
+      perPage: 3,
+    } ).mount();
+  }
+}
+ResizeSlider();
 
 /* burger */
 (function () {
