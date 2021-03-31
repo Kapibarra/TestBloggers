@@ -5,6 +5,7 @@
     "main": "webpack.config.js",
     "dependencies": {
         "@babel/polyfill": "^7.12.1",
+        "@splidejs/splide": "^2.4.21",
         "inputmask": "^5.0.5",
         "just-validate": "^1.5.0",
         "normalize.css": "^8.0.1",
