@@ -1,6 +1,14 @@
 @import "header";
 @import "main";
 @import "footer";
+@import "_variables";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap');
+.page {
+    width: 100%;
+    max-width: 1304px;
+    margin: 0 auto;
+}
+
 html {
     line-height: 1.15;
     -webkit-text-size-adjust: 100%;
@@ -8,6 +16,7 @@ html {
 
 body {
     margin: 0;
+    background: $bglinear;
 }
 
 main {
@@ -15,8 +24,7 @@ main {
 }
 
 h1 {
-    font-size: 2em;
-    margin: 0.67em 0;
+    margin: 0;
 }
 
 hr {
@@ -28,6 +36,10 @@ hr {
 pre {
     font-family: monospace, monospace;
     font-size: 1em;
+}
+
+p {
+    margin: 0;
 }
 
 a {
