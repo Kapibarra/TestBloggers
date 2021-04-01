@@ -72,6 +72,10 @@ function ResizeSlider() {
     new Splide( '.splide', {
       perPage: 2,
     } ).mount();
+  } else if (window.screen.width <= 1268) {
+    new Splide( '.splide', {
+      perPage: 3,
+    } ).mount();
   } else {
     new Splide( '.splide', {
       perPage: 4,
