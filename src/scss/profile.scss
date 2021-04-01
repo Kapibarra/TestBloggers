@@ -12,7 +12,6 @@
 }
 
 .profile__picture {
-    padding-top: 5px;
     width: 100%;
     max-width: 410px;
     margin: 0 auto;
@@ -137,5 +136,43 @@
 @media screen and (max-width: 1280px) {
     .profile__main {
         display: block;
+    }
+}
+
+@media screen and (max-width: 648px) {
+    .splide__arrow--prev {
+        left: 22%
+    }
+    .splide__arrow--next {
+        left: 68%
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .profile__main-videos-item {
+        width: 300px;
+        margin: 0 auto;
+    }
+    .profile__video-frame {
+        width: 300px;
+        height: 161px;
+        margin: 0 auto;
+    }
+    .profile__video-playbtn {
+        top: 26%;
+        left: 45%;
+    }
+    .profile__picture img {
+        width: 100%;
+        max-width: 300px;
+        margin: 0 auto;
+    }
+    .profile__picture {
+        padding-top: 15px;
+        max-width: 300px;
+        margin: 0 auto;
+    }
+    .profile__title a {
+        font-size: 35px;
     }
 }

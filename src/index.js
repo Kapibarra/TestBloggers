@@ -19,7 +19,7 @@ import Splide from '@splidejs/splide';
 function burgerButtonToggle() {
   const burgerButton = document.querySelector(".nav-toggle")
   const yPos = window.scrollY;
-  if (yPos > 10) {
+  if (yPos > 80) {
     burgerButton.classList.add("unvisible")
     burgerButton.classList.remove("visible");
   } else {
@@ -31,14 +31,16 @@ window.addEventListener("scroll", burgerButtonToggle);
 
 /* Slider resizing */
 function ResizeSlider() {
-  if (window.screen.width <= 968){
+  if (window.screen.width <= 648){
     new Splide( '.splide', {
-      autoWidth: false,
+      perPage: 1,
+    } ).mount();
+  } else if (window.screen.width <= 948) {
+    new Splide( '.splide', {
       perPage: 2,
     } ).mount();
   } else {
     new Splide( '.splide', {
-      autoWidth: false,
       perPage: 3,
     } ).mount();
   }

@@ -37,12 +37,12 @@
 
 @media screen and (max-width: 1280px) {
     .loader div:nth-child(1) {
-        left: -40%;
-        width: 150px
+        left: -25%;
+        width: 120px
     }
     .loader div:nth-child(2) {
-        right: -40%;
-        width: 150px;
+        right: -25%;
+        width: 120px;
     }
     .footer__navigation {
         flex-direction: column;
@@ -50,5 +50,29 @@
         text-align: right;
         margin: 20px 20px 20px 10px;
         width: 300px;
+    }
+}
+
+@media screen and (max-width: 648px) {
+    .footer {
+        display: block;
+        width: 100%;
+        max-width: 400px;
+        margin: 0 auto;
+    }
+    .footer__logo {
+        width: 100%;
+        max-width: 200px;
+        margin: 0 auto;
+    }
+    .footer__navigation {
+        width: 100%;
+        max-width: 300px;
+        margin: 50px auto 15px;
+        text-align: center;
+    }
+    .footer__sociallogo {
+        top: 59%;
+        left: 38%;
     }
 }

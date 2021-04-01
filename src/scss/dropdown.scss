@@ -24,10 +24,6 @@
     padding: 0
 }
 
-#main__sort-nav ul li.current-menu-item {
-    background: #ddd
-}
-
 #main__sort-nav ul li:hover {
     border-radius: 5px;
 }
@@ -48,6 +44,13 @@
     float: none;
     width: 200px;
     margin: 5px 10px;
+}
+
+#main__sort-nav ul ul li img {
+    display: block;
+    width: 15px;
+    margin: 0px auto;
+    padding: 10px;
 }
 
 #main__sort-nav ul ul li:hover {

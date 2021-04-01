@@ -130,3 +130,9 @@ select {
     font-size: 15px;
     line-height: 20px;
 }
+
+@media screen and (max-width: 648px) {
+    .main__sort-title {
+        display: none;
+    }
+}
