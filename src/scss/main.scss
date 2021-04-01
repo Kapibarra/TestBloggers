@@ -16,6 +16,9 @@
 }
 
 .main__sort {
+    width: 100%;
+    max-width: $containerWidth;
+    display: flex;
     margin-bottom: 50px;
 }
 

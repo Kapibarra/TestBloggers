@@ -4,6 +4,7 @@
 @import "_variables";
 @import "profile";
 @import "burger.scss";
+@import "dropdown.scss";
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap');
 .page {
     width: 100%;
@@ -198,4 +199,14 @@ template {
 
 [hidden] {
     display: none;
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
 }
