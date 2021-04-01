@@ -1,7 +1,7 @@
 @import "_variables";
 .main {
     width: 100%;
-    max-width: 1304px;
+    max-width: $containerWidth;
     margin: 0 auto;
 }
 
@@ -105,17 +105,17 @@ select {
     margin-bottom: 50px;
     & div:nth-child(1) {
         position: absolute;
-        width: 600px;
+        width: 500px;
         border: 1px solid $white;
         top: 50%;
-        left: -252%
+        left: -212%
     }
     & div:nth-child(2) {
         position: absolute;
-        width: 600px;
+        width: 500px;
         border: 1px solid $white;
         top: 50%;
-        right: -252%
+        right: -212%
     }
 }
 

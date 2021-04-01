@@ -3,10 +3,11 @@
 @import "footer";
 @import "_variables";
 @import "profile";
+@import "burger.scss";
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap');
 .page {
     width: 100%;
-    max-width: 1304px;
+    max-width: $containerWidth;
     margin: 0 auto;
 }
 

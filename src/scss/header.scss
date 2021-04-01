@@ -1,7 +1,7 @@
 @import "_variables";
 .header {
     width: 100%;
-    max-width: 1304px;
+    max-width: $containerWidth;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -67,4 +67,16 @@
     background-color: #e3e3e3;
     border: 1px solid #e3e3e3;
     text-decoration: none;
+}
+
+@media screen and (max-width: 1280px) {
+    .desktop-nav {
+        display: none;
+    }
+    .header__lang {
+        display: none;
+    }
+    .nav-toggle {
+        display: block !important;
+    }
 }
